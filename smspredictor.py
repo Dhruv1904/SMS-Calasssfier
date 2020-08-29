@@ -61,7 +61,7 @@ def main():
     if st.button("Check"):
         result=predict_spam(sms)
         if result ==1:
-            result= str('The entered message is is not Spam')
+            result= str('The entered message is not Spam')
         else:
             result= str('The entered message is a Spam')
     st.success(result)
